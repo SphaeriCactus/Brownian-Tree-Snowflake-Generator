@@ -4,8 +4,7 @@ float colour;
 float maxColour;
 
 void setup() {
-  //size(600, 600);
-  fullScreen();
+  size(800, 800);
   maxColour = 360;
   colorMode(HSB, maxColour, 1, 1);
   current = new Particle(width/2, 0);
